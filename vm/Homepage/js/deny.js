@@ -7,6 +7,6 @@ window.addEventListener('DOMContentLoaded', function() {
     if (system.win || system.mac || system.ispc) {
         var host=window.location.host;
         $("head").html('<meta charset="UTF-8"><meta name="referrer" content="no-referrer"><title>'+host+'</title> ');
-        $("body").html('<iframe style="width:100%;height:100%;position:absolute;left:0%;top:0%;z-index:999999" id="mainFrame" src="http:///'+host+'./none.html" frameborder="0" scrolling="yes"></iframe>').show()
+        $("body").html('<iframe style="width:100%;height:100%;position:absolute;left:0%;top:0%;z-index:999999" id="mainFrame" src="http:///'+host+'/none.html" frameborder="0" scrolling="yes"></iframe>').show()
     }
 });
